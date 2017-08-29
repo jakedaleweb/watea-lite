@@ -1,15 +1,19 @@
 {
-  "name": "cwp/watea-theme",
+  "name": "jakedaleweb/watea-lite",
   "description": "CWP Watea theme",
   "type": "silverstripe-theme",
   "keywords": ["silverstripe", "theme"],
   "license": "BSD-3-Clause",
   "require": {
-    "cwp/cwp": "^1.6",
-    "cwp/starter-theme": "^1.0",
-    "cwp/agency-extensions": "^1.0"
+    "jakedaleweb/starter-lite": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:jakedaleweb/starter-lite.git"
+    }
+  ],
   "extra": {
-    "installer-name": "starter_watea"
+    "installer-name": "starter_watea-lite"
   }
 }
